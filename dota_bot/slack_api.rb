@@ -35,7 +35,7 @@ module DotaBot
       print "  [REQUEST BODY] #{request.body} \n"
 
       require 'net/http'
-      postData = Net::HTTP.post_form(URI.parse('https://hooks.slack.com/services/#{webhook}'), {'payload'=> payload.to_json})
+      postData = Net::HTTP.post_form(uri, {'payload'=> payload.to_json})
       puts postData.body
 
       http.post(uri, data)
