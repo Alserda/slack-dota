@@ -15,7 +15,7 @@ It's possible to generate a token for your team's Slack-channel by going to [thi
 
 
 
-You have to enable an incoming webhook to be able to actually post the messages in a Slack channel. Go to https://**yourteam**.slack.com/services/new link and add a new 'Incoming WebHook' and then select a channel that you want to post the messages in. Copy the last part of the Webhook URL (https://hooks.slack.com/services/**this/part**) and add this to the 'webhook' key in `config/slack.yml`
+You have to enable an incoming webhook to be able to actually post the messages in a Slack channel. Go to (https://**yourteam**.slack.com/services/new) link and add a new 'Incoming WebHook' and then select a channel that you want to post the messages in. Copy the last part of the Webhook URL (https://hooks.slack.com/services/**this/part**) and add this to the 'webhook' key in `config/slack.yml`
 
 ### Players
 
